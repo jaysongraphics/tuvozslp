@@ -216,15 +216,15 @@ document.getElementById('contact-me').addEventListener('submit', function (event
     var message = document.getElementById('message').value;
 
     // msg template
-    var mailtoLink = 'mailto:jeremyagnz@gmail.com' +
+    var mailtoLink = 'mailto:Tuvozspeech@gmail.com' +
         '?subject=' + encodeURIComponent('Speech Therapy Inquiry: Tu Voz') +
         '&body=' + encodeURIComponent(
             'Hi Solanyi,\n\n' +
-            'I am reaching out for a speech therapy consultation. Please find my details below:\n\n' +
-            'Name: ' + name + '\n' +
+            'I am reaching out for a speech therapy consultation.\n\n Please find my details below:\n\n' +
+            'Name: ' + name + '\n\n' +
             'Message: ' + message + '\n\n' +
             'I look forward to your response.\n\n' +
-            'Best regards,\n' +
+            'Best regards,\n\n' +
             name
         );
 

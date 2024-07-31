@@ -222,8 +222,7 @@
     }
 
 
-        
-    /* NAV */
+ /* NAV */
 
 .nav{
     max-width: 968px;
@@ -268,6 +267,39 @@
         padding-top: .5rem;
         padding-bottom: 3.5rem;
     }
+
+    .nav__logo{
+       height: 100px;
+       width: 100px;
+    }
+
+    .asha-logo{
+        height: 50px;
+        width: 200px; 
+    }
+
+    
+    
+/* 
+    .scrollup{
+        position: fixed;
+        right: 1rem;
+        bottom:-20%;
+        background-color: var(--first-color-arrow);
+        opacity: 0.8;
+        padding: 0 .3rem;
+        border-radius:  .4rem;
+        z-index: var(--z-tooltip);
+        transition: .4s;
+    }
+    .scrollup:hover{
+        background-color: var(--first-color-arrow3);
+    }
+    .scrollup .scrollup__icon{
+        font-size: 1.5rem;
+        color: white
+    } */
+    
 }
 
 
@@ -290,8 +322,6 @@
 
 .nav__icon{
     font-size: 1.3rem;
-    
-    
 }
 
 
@@ -442,15 +472,15 @@
     cursor: pointer;
     color:var(--first-color-button);
     background-color: var(--first-color-white2);
+    margin-bottom: 20px;
 }
 
 .button-white{
     background-color: #FFF;
-    
 }
+
 .button--white:hover{
     color: var(--first-color-white2);
-
 }
 
 
@@ -492,9 +522,9 @@
 }
 
 .about__description{
-    text-align: center;
+    /* text-align: initial; */
     margin-bottom: var(--mb-2-5);
-    
+    color: var(--title-color);
 }
 
 .about__info{
@@ -831,16 +861,17 @@
 .portfolio__data{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: initial;
 }
 
 .portfolio__title{
-    text-align: center;
+    text-align: initial;
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-0-5);
 }
+
 .portfolio__description{
-    text-align: center;
+    text-align: initial;
 }
 
 .portfolio__button{
@@ -1166,6 +1197,7 @@
     .testimonial__description{
         text-align: center;
     }
+ 
 }
 
 /* FOR MEDIUM DEVICES */
@@ -1192,6 +1224,10 @@
         display: flex;
         grid-template-columns: .6fr;
         justify-content: center;
+    }
+    .asha-logo{
+        height: 50px;
+        width: 200px; 
     }
 }
 
@@ -1337,6 +1373,7 @@
     .footer__copy{
         margin-top: 4.5rem;
     }
+   
 }
 
 /* FOR LARGE DEVICES */
