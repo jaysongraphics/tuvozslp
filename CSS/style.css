@@ -1089,7 +1089,7 @@
 
 /* SHOW SCROLL */
 .show-scroll{
-    bottom: 12.3rem;
+    bottom: 12.4rem;
 }
 
 /* FOR SMALL DEVICES */
@@ -1314,9 +1314,11 @@
     .project{
         text-align: initial;
     }
+    
     .project__bg{
         background: none;
     }
+
     .project__container{
         background-color: var(--first-color-second);
         border-radius: 1rem;
