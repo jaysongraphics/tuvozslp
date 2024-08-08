@@ -114,7 +114,7 @@
 
     /* Base */
     *{
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
         padding: 0;
         margin: 0;
     }
@@ -880,12 +880,13 @@
 
 .project__description{
     margin-bottom: var(--mb-1-5);
+    color: var(--first-color-white2)
 }
-
+/* 
 .project__title,
 .project__description{
     color: #FFF;
-}
+} */
 
 .project__img{
     width: 300px;
